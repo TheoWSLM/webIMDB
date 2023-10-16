@@ -103,9 +103,9 @@ Certifique-se de que *seu_banco_de_dados*, *seu_usuario* e *sua_senha* sejam sub
 
 ## Observações
 
-Certifique-se de manter as informações de autenticação (como senha) seguras e não as compartilhe publicamente em repositórios.
-
 Caso deseje utilizar um banco de dados diferente, ajuste a URL de conexão de acordo com o sistema de gerenciamento de banco de dados que você está usando.
+
+O Swagger esta habilitado e configurado nessa aplicação para facilitar o seu uso, basta acessar por meio da url padrão http://localhost:8080/swagger-ui/index.html caso esteja rodando na porta 8080
 
 
 ## Desenvolvedor:
