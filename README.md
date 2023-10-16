@@ -7,6 +7,7 @@
 
 # :hammer: Funcionalidades da Aplicação
 
+
 ## Registro de Usuário
 :heavy_check_mark: Os usuários podem se registrar na aplicação fornecendo um nome de usuário e senha.<br>
 :heavy_check_mark: Senha e confirmação de senha são validadas para garantir que sejam iguais.
@@ -108,4 +109,4 @@ Caso deseje utilizar um banco de dados diferente, ajuste a URL de conexão de ac
 
 
 ## Desenvolvedor:
-(https://github.com/TheoWSLM/webIMDB/assets/130668057/840b8fa1-be20-4151-b014-3d85cb8557b6)<br><sub>THEO WEBER</sub>](https://github.com/TheoWSLM)  
+![Design sem nome (1)](https://github.com/TheoWSLM/webIMDB/assets/130668057/8effdd6f-8315-46c4-952c-9e639e50b4bb)<br><sub>THEO WEBER</sub>(https://github.com/TheoWSLM)  
