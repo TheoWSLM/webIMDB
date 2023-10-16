@@ -94,6 +94,10 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+
+
+
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
 ```
 
@@ -107,6 +111,10 @@ Caso deseje utilizar um banco de dados diferente, ajuste a URL de conexão de ac
 
 O Swagger esta habilitado e configurado nessa aplicação para facilitar o seu uso, basta acessar por meio da url padrão http://localhost:8080/swagger-ui/index.html caso esteja rodando na porta 8080
 
+# Funcionamento
+https://github.com/TheoWSLM/webIMDB/assets/130668057/9e396d4e-2ad3-47ba-aa66-79b5d0587b30
+
 
 ## Desenvolvedor:
-![Design sem nome (1)](https://github.com/TheoWSLM/webIMDB/assets/130668057/8effdd6f-8315-46c4-952c-9e639e50b4bb)<br><sub>THEO WEBER</sub>(https://github.com/TheoWSLM)  
+
+![Design sem nome (1)](https://github.com/TheoWSLM/webIMDB/assets/130668057/b2244539-c994-4013-90f8-265124d5b462)<br><sub>THEO WEBER</sub>(https://github.com/TheoWSLM)  
