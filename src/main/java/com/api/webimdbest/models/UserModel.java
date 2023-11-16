@@ -16,6 +16,8 @@ public class UserModel implements Serializable {
     private UUID id;
     @Column(nullable = false, length = 25)
     private String login;
+    @Column(nullable = true, length = 50)
+    private String nome;
     @Column(nullable = false, length = 100)
     private String passWord;
     @Column(nullable = false, length = 100)
@@ -24,6 +26,9 @@ public class UserModel implements Serializable {
     @Column(nullable = true)
     @ManyToMany
     private List<FilmeModel> items;
+
+    @Column(nullable = false, length = 100)
+    private String favoriteMovie;
 
     public UUID getId() {
         return id;
@@ -63,5 +68,21 @@ public class UserModel implements Serializable {
 
     public void setPassWordConfirmation(String passWordConfirmation) {
         this.passWordConfirmation = passWordConfirmation;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getFavoriteMovie() {
+        return favoriteMovie;
+    }
+
+    public void setFavoriteMovie(String favoriteMovie) {
+        this.favoriteMovie = favoriteMovie;
     }
 }

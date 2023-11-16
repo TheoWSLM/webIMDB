@@ -25,7 +25,7 @@ public class FilmeController {
         this.userService = userService;
     }
 
-    @GetMapping("/list")
+    @GetMapping("/listar")
     public ResponseEntity<?> listFilmes(@RequestParam(name = "userId") UUID userId) {
         if (userService.doesUserExist(userId.toString())) {
             List<FilmeModel> filmes = filmeService.listarFilmes();

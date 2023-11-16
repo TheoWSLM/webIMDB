@@ -30,7 +30,7 @@ public class UserController {
         this.userService = userService;
         this.filmeService = filmeService;
     }
-    @PostMapping("/register")
+    @PostMapping("/registrar")
     public ResponseEntity<Object> saveUser(@RequestBody @Valid UserCreateDTO userCreateDTO){
         String login = userCreateDTO.getLogin();
         if (userService.isLoginTaken(login)) {
@@ -42,7 +42,7 @@ public class UserController {
             return ResponseEntity.status(HttpStatus.CREATED).body(userService.saveUser(userModel));
         }
     }
-    @PostMapping ("/login")
+    @PostMapping ("/logar")
     public ResponseEntity<?> loginUser(@RequestBody @Valid UserLoginDTO userLoginDTO) {
 
         Optional<UserModel> user = userService.getUserByLogin(userLoginDTO.getLogin());
@@ -54,7 +54,7 @@ public class UserController {
         }
     }
 
-    @PutMapping("/addFilme")
+    @PutMapping("/adicionarFilme")
     public ResponseEntity<?> addFilme(@RequestParam(name = "idUser") UUID idUser, @RequestParam(name = "filmId") String filmId) {
 
         Optional<UserModel> user = userService.getUserById(idUser);
