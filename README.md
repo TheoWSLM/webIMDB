@@ -1,11 +1,12 @@
 <h1>Web IMDB</h1> 
 <p>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=PRODUZINDO&color=GREEN&style=for-the-badge"/>
 </p>
 <p>Linguagem utilizada</p> 
 :memo: Java
 
 # :hammer: Funcionalidades da Aplicação
+
 
 ## Registro de Usuário
 :heavy_check_mark: Os usuários podem se registrar na aplicação fornecendo um nome de usuário e senha.<br>
@@ -93,6 +94,10 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+
+
+
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
 ```
 
@@ -102,10 +107,14 @@ Certifique-se de que *seu_banco_de_dados*, *seu_usuario* e *sua_senha* sejam sub
 
 ## Observações
 
-Certifique-se de manter as informações de autenticação (como senha) seguras e não as compartilhe publicamente em repositórios.
-
 Caso deseje utilizar um banco de dados diferente, ajuste a URL de conexão de acordo com o sistema de gerenciamento de banco de dados que você está usando.
+
+O Swagger esta habilitado e configurado nessa aplicação para facilitar o seu uso, basta acessar por meio da url padrão http://localhost:8080/swagger-ui/index.html caso esteja rodando na porta 8080
+
+# Funcionamento
+https://github.com/TheoWSLM/webIMDB/assets/130668057/9e396d4e-2ad3-47ba-aa66-79b5d0587b30
 
 
 ## Desenvolvedor:
-(https://github.com/TheoWSLM/webIMDB/assets/130668057/840b8fa1-be20-4151-b014-3d85cb8557b6)<br><sub>THEO WEBER</sub>](https://github.com/TheoWSLM)  
+
+![Design sem nome (1)](https://github.com/TheoWSLM/webIMDB/assets/130668057/b2244539-c994-4013-90f8-265124d5b462)<br><sub>THEO WEBER</sub>(https://github.com/TheoWSLM)  
