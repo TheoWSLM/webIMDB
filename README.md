@@ -1,6 +1,6 @@
 <h1>Web IMDB</h1> 
 <p>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=PRODUZINDO&color=GREEN&style=for-the-badge"/>
 </p>
 <p>Linguagem utilizada</p> 
 :memo: Java
